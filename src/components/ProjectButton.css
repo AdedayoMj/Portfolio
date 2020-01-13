@@ -1,0 +1,30 @@
+.projectp-btn {
+    display: flex;
+    flex: 1;
+    padding: 1em 1em 1em 1em;
+    height: 2em;
+    width: 100px !important;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    font-size: 1em;
+    background: transparent;
+    border: 0.08rem solid #ffa400;
+    border-color: #ffa400;
+    color: #2a2a72;
+    height: 1.6em;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    margin: auto;
+}
+
+.sub_hoverl:hover {
+    background: #ffa400;
+    color: #2a2a72;
+}
+
+.sub_hoverl:focus {
+    outline: none;
+}

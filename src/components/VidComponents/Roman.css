@@ -1,0 +1,72 @@
+.vid-container {
+    float: left;
+    width: 80%;
+    padding: 10px;
+    height: 100%;
+    text-align: center;
+}
+
+.row {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    text-align: center;
+}
+
+.move {
+    margin: auto !important;
+    color: #2a2a72;
+}
+
+.item-container {
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    margin-left: 67%;
+}
+
+.btn {
+    display: flex;
+    flex: 1;
+    height: 2em;
+    width: 150px !important;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    font-size: 1.4em;
+    background: transparent;
+    border: 0.08rem solid #ffa400;
+    border-color: green;
+    color: green;
+    height: 3em;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    margin: auto;
+}
+
+.btn_hover:hover {
+    background: #ffa400;
+    color: #2a2a72;
+}
+
+.btn_hover:focus {
+    outline: none;
+}
+
+.player-wrapper {
+    position: relative;
+    padding-top: 56.25%/* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+    position: absolute;
+    top: 0;
+    left: 1%;
+    margin-right: 10%;
+}

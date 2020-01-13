@@ -1,0 +1,406 @@
+.slantedDiv {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: url("../images/bacground1.jpg")center/cover no-repeat;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+.slanted-overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5)center/cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0;
+}
+
+.slantedDiv:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0;
+    background: inherit;
+    transform-origin: top left;
+    transform: skewY(5deg);
+    z-index: -1;
+}
+
+.slantedDivmid {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: white;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+
+.slantedDivmid:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0;
+    background: inherit;
+    transform-origin: bottom right;
+    transform: skewY(5deg);
+}
+
+.slantedDivmid:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0;
+    background: inherit;
+    transform-origin: top left;
+    transform: skewY(5deg);
+    z-index: -1;
+}
+
+.slantedDivmid:after {
+    z-index: -1;
+}
+
+.slantedDivmidB {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: url("../images/bacground2.jpg")center/cover no-repeat;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+
+.slanted-overlayC {
+    position: absolute;
+    background: white center/cover;
+    width: 100%;
+    height: 700px;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0;
+}
+
+.slanted-overlayB {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5)center/cover;
+    width: 100%;
+    height: 700px;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0;
+}
+
+.slantedDivmidB:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0;
+    background: inherit;
+    transform-origin: top left;
+    transform: skewY(5deg);
+    z-index: -1;
+}
+
+.slantedDivBottom {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: white;
+    padding: 30px;
+    margin-bottom: 2%;
+}
+
+.slantedDivBottom:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0;
+    background: inherit;
+    transform-origin: bottom right;
+    transform: skewY(5deg);
+}
+
+.section {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 100px;
+    letter-spacing: 5px;
+}
+
+.section-mid {
+    color: rgba(255, 147, 75, 0.932);
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 100px;
+    letter-spacing: 5px;
+}
+
+.column {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    height: 300px;
+    text-align: center;
+}
+
+.column-mid {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px;
+    text-align: center;
+}
+
+.row {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h4 {
+    margin-left: 2em;
+    text-align: center;
+}
+
+h3 {
+    align-content: center;
+    text-align: center;
+}
+
+.a {
+    position: relative;
+    width: 22%;
+    border-bottom: 5px solid #ffa400;
+    align-items: center;
+    align-content: center;
+}
+
+.pa {
+    color: #ffa400;
+}
+
+.black {
+    color: #2a2a72;
+}
+
+
+/* Card design*/
+
+.card {
+    display: absolute;
+    flex: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.6s ease-in-out;
+    width: 100%;
+    color: white;
+    height: 300px;
+    background: lightgrey;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 10%;
+    justify-content: center;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/**/
+
+.container-logo {
+    color: #2a2a72;
+    height: 50px;
+}
+
+.container2 {
+    padding: 0 26px;
+    height: 20em !important;
+}
+
+.container4 {
+    padding: 10px 26px;
+}
+
+.demo {
+    margin-top: 4.2em;
+}
+
+.demo2 {
+    margin-top: 2.5em;
+}
+
+.demo3 {
+    margin-top: 0em;
+}
+
+
+/*slanted div for projects*/
+
+.slantedDivChat {
+    position: relative;
+    width: 100%;
+    height: 125px;
+    background: url("../images/chatapp.png")center/cover no-repeat;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+.slantedDivRoman {
+    position: relative;
+    width: 100%;
+    height: 125px;
+    background: url("../images/roman.png")center/cover no-repeat;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+.slantedDivPaint {
+    position: relative;
+    width: 100%;
+    height: 125px;
+    background: url("../images/pp.jpg")center/cover no-repeat;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+.slantedDivWe {
+    position: relative;
+    width: 100%;
+    height: 125px;
+    background: url("../images/weather.jpg")center/cover no-repeat;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+.slantedDivTrack {
+    position: relative;
+    width: 100%;
+    height: 125px;
+    background: url("../images/exercise.jpg")center/cover no-repeat;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+.slantedDivWaste {
+    position: relative;
+    width: 100%;
+    height: 125px;
+    background: url("../images/waste.jpg")center/cover no-repeat;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+.slantedDivStore {
+    position: relative;
+    width: 100%;
+    height: 125px;
+    background: url("../images/shop.jpg")center/cover no-repeat;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+.slantedDivForm {
+    position: relative;
+    width: 100%;
+    height: 125px;
+    background: url("../images/record.jpg")center/cover no-repeat;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+.slantedDivFormJwt {
+    position: relative;
+    width: 100%;
+    height: 125px;
+    background: url("../images/Form.PNG")center/cover no-repeat;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+.slantedDivSlot {
+    position: relative;
+    width: 100%;
+    height: 125px;
+    background: url("../images/SlotMachine.PNG")center/cover no-repeat;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+.slantedDivRest {
+    position: relative;
+    width: 100%;
+    height: 125px;
+    background: url("../images/RestCountry.PNG")center/cover no-repeat;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .column-mid {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .slantedDivmid {
+        position: relative;
+        width: 100%;
+        height: 1100px;
+        background: white;
+        padding: 30px;
+        margin-bottom: 100px;
+    }
+    .slantedDivmidB {
+        position: relative;
+        width: 100%;
+        height: 1100px;
+        background: url("../images/bacground2.jpg")center/cover no-repeat;
+        padding: 30px;
+        margin-bottom: 100px;
+    }
+    .slantedDivBottom {
+        position: relative;
+        width: 100%;
+        height: 1000px;
+        background: white;
+        padding: 30px;
+        margin-bottom: 2%;
+    }
+}
